@@ -6,6 +6,26 @@ public class TouristClassSeat implements ITouristClassSeat {
     private String id;
     private Passenger passenger;
     private int level;
-    private boolean isSmokingSignOn;
-    private boolean isSeatBeltSignOn;
+    private INonSmokingSign nonSmokingSign;
+    private ISeatBeltSign seatBeltSign;
+
+    @Override
+    public String version() {
+        return null;
+    }
+
+    @Override
+    public void assign(Passenger passenger) {
+
+    }
+
+    @Override
+    public void upRight() {
+
+    }
+
+    @Override
+    public void level1() {
+
+    }
 }

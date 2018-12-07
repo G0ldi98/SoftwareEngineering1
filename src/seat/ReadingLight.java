@@ -1,12 +1,11 @@
-package cabin;
+package seat;
 
-public class WaterSystem implements IWaterSystem {
+public class ReadingLight implements IReadingLight {
+    private String uuid;
     private String manufacturer;
     private String type;
     private String id;
     private boolean isOn;
-    private boolean isFilled;
-    private boolean isCleaned;
 
     @Override
     public String version() {
@@ -19,17 +18,7 @@ public class WaterSystem implements IWaterSystem {
     }
 
     @Override
-    public void refill() {
-
-    }
-
-    @Override
     public void off() {
-
-    }
-
-    @Override
-    public void clean() {
 
     }
 }

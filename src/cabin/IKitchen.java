@@ -3,9 +3,9 @@ package cabin;
 public interface IKitchen {
     public String version();
 
-    public boolean lock();
+    public void lock(); // war vorher boolean
 
-    public boolean unlock();
+    public void unlock(); // war vorher boolean
 
     public double getTotalWeightTrolleys();
 

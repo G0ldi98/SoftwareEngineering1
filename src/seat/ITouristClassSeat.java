@@ -5,15 +5,7 @@ public interface ITouristClassSeat {
 
     public void assign(Passenger passenger);
 
-    public boolean nonSmokingSignOff();
+    public void upRight();
 
-    public boolean nonSmokingSignOn();
-
-    public boolean seatBeltSignOff();
-
-    public boolean seatBeltSignOn();
-
-    public int upRight();
-
-    public int level1();
+    public void level1();
 }

@@ -3,7 +3,7 @@ package seat;
 public interface ICrewSeat {
     public String version();
 
-    public boolean readingLightOff();
+    public void readingLightOff();
 
-    public boolean readingLightOn();
+    public void readingLightOn();
 }

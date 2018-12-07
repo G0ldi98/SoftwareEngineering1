@@ -5,25 +5,17 @@ public interface IFirstClassSeat {
 
     public void assign(Passenger passenger);
 
-    public boolean nonSmokingSignOff();
+    public void readingLightOff();
 
-    public boolean nonSmokingSignOn();
+    public void readingLightOn();
 
-    public boolean seatBeltSignOff();
+    public void upRight();
 
-    public boolean seatBeltSignOn();
+    public void level1();
 
-    public boolean readingLightOff();
+    public void level2();
 
-    public boolean readingLightOn();
+    public void level3();
 
-    public int upRight();
-
-    public int level1();
-
-    public int level2();
-
-    public int level3();
-
-    public int flat();
+    public void flat();
 }

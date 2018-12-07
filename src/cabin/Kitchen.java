@@ -9,4 +9,34 @@ public class Kitchen implements IKitchen {
     private ArrayList<Trolley> trolleyList;
     private boolean isLocked;
     private boolean isFilled;
+
+    @Override
+    public String version() {
+        return null;
+    }
+
+    @Override
+    public void lock() {
+
+    }
+
+    @Override
+    public void unlock() {
+
+    }
+
+    @Override
+    public double getTotalWeightTrolleys() {
+        return 0;
+    }
+
+    @Override
+    public void addTrolley(Trolley trolley) {
+
+    }
+
+    @Override
+    public void emptyTrolley(Trolley trolley) {
+
+    }
 }

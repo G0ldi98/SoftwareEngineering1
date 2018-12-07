@@ -5,21 +5,13 @@ public interface IBusinessClassSeat {
 
     public void assign(Passenger passenger);
 
-    public boolean nonSmokingSignOff();
+    public void readingLightOff();
 
-    public boolean nonSmokingSignOn();
+    public void readingLightOn();
 
-    public boolean seatBeltSignOff();
+    public void upRight();
 
-    public boolean seatBeltSignOn();
+    public void level1();
 
-    public boolean readingLightOff();
-
-    public boolean readingLightOn();
-
-    public int upRight();
-
-    public int level1();
-
-    public int level2();
+    public void level2();
 }

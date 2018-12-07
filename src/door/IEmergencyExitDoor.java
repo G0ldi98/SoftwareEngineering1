@@ -3,13 +3,13 @@ package door;
 public interface IEmergencyExitDoor {
     public String version();
 
-    public boolean close();
+    public void close(); // war vorher boolean
 
-    public boolean lock();
+    public void lock(); // war vorher boolean
 
-    public boolean unlock();
+    public void unlock(); // war vorher boolean
 
-    public boolean open();
+    public void open(); // war vorher boolean
 
-    public boolean activateEscapeSlide();
+    public void activateEscapeSlide(); // war vorher boolean
 }

@@ -3,11 +3,11 @@ package cabin;
 public interface IWasteSystem {
     public String version();
 
-    public boolean on();
+    public void on(); // war vorher boolean
 
     public int deposit(String[] waste);
 
-    public boolean off();
+    public void off(); // war vorher boolean
 
-    public boolean clean();
+    public void clean(); // war vorher boolean
 }

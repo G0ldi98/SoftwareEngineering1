@@ -3,9 +3,9 @@ package cabin;
 public interface ILavatory {
     public String version();
 
-    public boolean lock();
+    public void lock(); // war vorher boolean
 
-    public boolean unlock();
+    public void unlock(); // war vorher boolean
 
-    public boolean clean();
+    public void clean(); // war vorher boolean
 }

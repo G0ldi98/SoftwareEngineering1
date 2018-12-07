@@ -3,11 +3,11 @@ package cabin;
 public interface IWaterSystem {
     public String version();
 
-    public boolean on();
+    public void on(); // war vorher boolean
 
-    public boolean refill();
+    public void refill(); // war vorher boolean
 
-    public boolean off();
+    public void off(); // war vorher boolean
 
-    public boolean clean();
+    public void clean(); // war vorher boolean
 }
