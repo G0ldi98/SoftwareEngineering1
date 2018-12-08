@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="315201d5-6fe1-4d62-b270-e50f9068d042" name="Default" comment="Erster Zwischestand">
+    <list default="true" id="315201d5-6fe1-4d62-b270-e50f9068d042" name="Default" comment="Door Package ready&#10;AirplanePart Package ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/airplanePart/AirplanePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/airplanePart/AirplanePart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/airplanePart/IAirplanePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/airplanePart/IAirplanePart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/BulkCargoDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/BulkCargoDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/CrewDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/CrewDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/Door.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/EmergencyExitDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/EmergencyExitDoor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/door/GearDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/GearDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/IDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/IDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seat/ISeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seat/ISeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seat/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seat/Seat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,24 +16,24 @@
     <session id="-844942928">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="62" />
+          <entry key="java" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="62" />
+          <entry key="JAVA" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5338" />
-          <entry key="txt" value="19" />
+          <entry key="java" value="5407" />
+          <entry key="txt" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5338" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="5407" />
+          <entry key="PLAIN_TEXT" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -65,20 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/door/GearDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/door/GearDoorType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -105,11 +87,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/door/Door.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="374">
               <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/airplanePart/AirplanePart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/airplanePart/IAirplanePart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -191,9 +191,9 @@
         <option value="$PROJECT_DIR$/src/door/IDoor.java" />
         <option value="$PROJECT_DIR$/src/door/CrewDoor.java" />
         <option value="$PROJECT_DIR$/src/door/EmergencyExitDoor.java" />
-        <option value="$PROJECT_DIR$/src/door/GearDoor.java" />
         <option value="$PROJECT_DIR$/src/door/BulkCargoDoor.java" />
         <option value="$PROJECT_DIR$/src/door/Door.java" />
+        <option value="$PROJECT_DIR$/src/door/GearDoor.java" />
       </list>
     </option>
   </component>
@@ -249,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544267351116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544267822458" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -307,7 +307,7 @@
       <workItem from="1541926104532" duration="296000" />
       <workItem from="1541926552238" duration="3803000" />
       <workItem from="1544196144514" duration="1760000" />
-      <workItem from="1544261980656" duration="5435000" />
+      <workItem from="1544261980656" duration="5789000" />
     </task>
     <task id="LOCAL-00001" summary="Erster Zwischestand">
       <created>1544264797780</created>
@@ -316,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544264797780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Door Package ready&#10;AirplanePart Package ready">
+      <created>1544267542556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544267542556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20976000" />
+    <option name="totallyTimeSpent" value="21330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1213" height="773" extended-state="6" />
@@ -363,7 +370,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Erster Zwischestand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Erster Zwischestand" />
+    <MESSAGE value="Door Package ready&#10;AirplanePart Package ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Door Package ready&#10;AirplanePart Package ready" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cabin/IWasteSystem.java">
@@ -588,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/airplanePart/AirplanePart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/seat/BusinessClassSeat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -630,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/airplanePart/IAirplanePart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/door/IDoor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -669,10 +663,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/GearDoor.java">
+    <entry file="file://$PROJECT_DIR$/src/airplanePart/IAirplanePart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/Door.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -683,10 +684,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/Door.java">
+    <entry file="file://$PROJECT_DIR$/src/airplanePart/AirplanePart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="425">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/GearDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>

@@ -9,4 +9,9 @@ public class GearDoor extends Door {
         setGearDoor(ID, "GearDoor");
         type = typeOfDoor;
     }
+
+    public String version()
+    {
+        return "<" + door.getID() + "> - <" + type +">";
+    }
 }
