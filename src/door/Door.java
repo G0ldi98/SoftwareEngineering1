@@ -1,24 +1,26 @@
 package door;
 
-import airplanePart.AirplanePart;
+import airplanePart.IAirplanePart;
 
 public abstract class Door implements IDoor{
 
-    protected AirplanePart door;
+    protected IAirplanePart door;
     protected boolean isLocked;
     protected boolean isClosed;
 
-    public Door(String ID, String brand)
+    @Override
+    public void setDoor(String ID, String brand, String type)
     {
-        door = new AirplanePart(ID, brand);
+        door.setAll(ID, type, brand);
         isLocked = false;
-        isLocked = true;
+        isClosed = true;
     }
 
-    public Door(String ID, String typeOfDoor, String brand)
+    @Override
+    public void setGearDoor(String ID, String brand)
     {
-        door = new AirplanePart(ID, brand, typeOfDoor);
-        isClosed = false;
+        door.setIDandBrand(ID, brand);
+        isLocked = false;
         isClosed = true;
     }
 

@@ -1,10 +1,10 @@
 package seat;
 
-import airplanePart.AirplanePart;
+import airplanePart.IAirplanePart;
 
-public abstract class Seat {
+public abstract class Seat implements ISeat {
 
-    protected AirplanePart seat;
+    protected IAirplanePart seat;
     protected Passenger passenger;
     protected int level;
     protected INonSmokingSign nonSmokingSign;
@@ -13,7 +13,7 @@ public abstract class Seat {
 
     public Seat(String ID, String type, String brand, Passenger passenger)
     {
-        seat = new AirplanePart(ID, brand, type);
+        seat.setAll(ID, type, brand);
         this.passenger = passenger;
         level = 0;
         nonSmokingSign.off();;
@@ -23,11 +23,17 @@ public abstract class Seat {
 
     public Seat(String ID, String brand, String  type)
     {
-        seat = new AirplanePart(ID, brand, type);
+        seat.setAll(ID, brand, type);
         level = 0;
         nonSmokingSign.off();
         seatBeltSign.off();
         readingLight.off();
+    }
+
+    @Override
+    public String version()
+    {
+        return seat.version();
     }
 
 }

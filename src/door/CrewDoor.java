@@ -2,8 +2,8 @@ package door;
 
 public class CrewDoor extends Door {
 
-    public CrewDoor(String ID, String typeOfDoor, String brand)
+    public CrewDoor(String ID, String typeOfDoor)
     {
-        super(ID, typeOfDoor, brand);
+        setDoor(ID, typeOfDoor, "CrewDoor");
     }
 }

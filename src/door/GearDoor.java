@@ -4,9 +4,9 @@ public class GearDoor extends Door {
 
     private GearDoorType type;
 
-    public GearDoor(String ID, GearDoorType typeOfDoor, String brand)
+    public GearDoor(String ID, GearDoorType typeOfDoor)
     {
-        super(ID, brand);
+        setGearDoor(ID, "GearDoor");
         type = typeOfDoor;
     }
 }

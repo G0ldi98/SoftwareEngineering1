@@ -5,19 +5,6 @@ public class AirplanePart implements IAirplanePart {
     protected String id;
     protected String type;
 
-    public AirplanePart(String ID, String brand)
-    {
-        manufacturer = brand;
-        id = ID;
-    }
-
-    public AirplanePart(String ID, String brand, String type)
-    {
-        manufacturer = brand;
-        id = ID;
-        this.type = type;
-    }
-
     @Override
     public String version()
     {
@@ -28,5 +15,20 @@ public class AirplanePart implements IAirplanePart {
     public String getID()
     {
         return id;
+    }
+
+    @Override
+    public void setAll(String ID, String type, String brand)
+    {
+        id = ID;
+        this.type = type;
+        manufacturer = brand;
+    }
+
+    @Override
+    public void setIDandBrand(String ID, String brand)
+    {
+        id = ID;
+        manufacturer = brand;
     }
 }

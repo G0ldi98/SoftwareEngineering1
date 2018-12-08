@@ -2,8 +2,8 @@ package door;
 
 public class BulkCargoDoor extends Door {
 
-    public BulkCargoDoor(String ID, String typeOfDoor, String brand)
+    public BulkCargoDoor(String ID, String typeOfDoor)
     {
-        super(ID, typeOfDoor, brand);
+        setDoor(ID,"BulkCargoDoor", typeOfDoor);
     }
 }

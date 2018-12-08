@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="315201d5-6fe1-4d62-b270-e50f9068d042" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/airplanePart/AirplanePart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/airplanePart/IAirplanePart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/door/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/door/IDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seat/ISeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seat/Seat.java" afterDir="false" />
+    <list default="true" id="315201d5-6fe1-4d62-b270-e50f9068d042" name="Default" comment="Erster Zwischestand">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/AirConditioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/AirConditioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/Beverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/EscapeSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/EscapeSlide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/IAirConditioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/IAirConditioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/IEscapeSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/IEscapeSlide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/IKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/IKitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/ILavatory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/ILavatory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/Kitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/Lavatory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/Lavatory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/WasteSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/WasteSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cabin/WaterSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cabin/WaterSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/airplanePart/AirplanePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/airplanePart/AirplanePart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/airplanePart/IAirplanePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/airplanePart/IAirplanePart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/door/BulkCargoDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/BulkCargoDoor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/door/CrewDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/CrewDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/door/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/Door.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/door/EmergencyExitDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/EmergencyExitDoor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/door/GearDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/GearDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/IBulkCargoDoor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/ICrewDoor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/IEmergencyExitDoor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/door/IGearDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/door/IDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/door/IDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seat/ISeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seat/ISeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seat/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seat/Seat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,22 +25,24 @@
     <session id="-844942928">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="45" />
+          <entry key="java" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4382" />
+          <entry key="java" value="5338" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4382" />
+          <entry key="JAVA" value="5338" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -71,28 +57,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cabin/Beverage.java">
+        <entry file="file://$PROJECT_DIR$/src/door/EmergencyExitDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/airplanePart/AirplanePart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/door/Door.java">
+        <entry file="file://$PROJECT_DIR$/src/door/GearDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/door/GearDoorType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -100,8 +86,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/door/BulkCargoDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,52 +100,25 @@
         <entry file="file://$PROJECT_DIR$/src/door/IDoor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/door/Door.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/seat/Seat.java">
+        <entry file="file://$PROJECT_DIR$/src/door/CrewDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/seat/ISeat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/seat/BusinessClassSeat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/seat/CrewSeat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/seat/FirstClassSeat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="68">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -208,19 +171,11 @@
         <option value="$PROJECT_DIR$/src/seat/ISeatBeltSign.java" />
         <option value="$PROJECT_DIR$/src/seat/ReadingLight.java" />
         <option value="$PROJECT_DIR$/src/seat/SeatBeltSign.java" />
-        <option value="$PROJECT_DIR$/src/door/CrewDoor.java" />
-        <option value="$PROJECT_DIR$/src/door/BulkCargoDoor.java" />
-        <option value="$PROJECT_DIR$/src/door/GearDoor.java" />
-        <option value="$PROJECT_DIR$/src/door/EmergencyExitDoor.java" />
-        <option value="$PROJECT_DIR$/src/door/IDoor.java" />
         <option value="$PROJECT_DIR$/src/airplanePart/IAirplanePArt.java" />
-        <option value="$PROJECT_DIR$/src/door/Door.java" />
         <option value="$PROJECT_DIR$/src/cabin/IAirConditioning.java" />
         <option value="$PROJECT_DIR$/src/cabin/AirConditioning.java" />
         <option value="$PROJECT_DIR$/src/cabin/IEscapeSlide.java" />
         <option value="$PROJECT_DIR$/src/cabin/IKitchen.java" />
-        <option value="$PROJECT_DIR$/src/airplanePart/IAirplanePart.java" />
-        <option value="$PROJECT_DIR$/src/airplanePart/AirplanePart.java" />
         <option value="$PROJECT_DIR$/src/cabin/Kitchen.java" />
         <option value="$PROJECT_DIR$/src/cabin/Lavatory.java" />
         <option value="$PROJECT_DIR$/src/cabin/ILavatory.java" />
@@ -229,7 +184,16 @@
         <option value="$PROJECT_DIR$/src/cabin/WaterSystem.java" />
         <option value="$PROJECT_DIR$/src/cabin/EscapeSlide.java" />
         <option value="$PROJECT_DIR$/src/cabin/Beverage.java" />
+        <option value="$PROJECT_DIR$/src/airplanePart/AirplanePart.java" />
+        <option value="$PROJECT_DIR$/src/airplanePart/IAirplanePart.java" />
+        <option value="$PROJECT_DIR$/src/seat/ISeat.java" />
         <option value="$PROJECT_DIR$/src/seat/Seat.java" />
+        <option value="$PROJECT_DIR$/src/door/IDoor.java" />
+        <option value="$PROJECT_DIR$/src/door/CrewDoor.java" />
+        <option value="$PROJECT_DIR$/src/door/EmergencyExitDoor.java" />
+        <option value="$PROJECT_DIR$/src/door/GearDoor.java" />
+        <option value="$PROJECT_DIR$/src/door/BulkCargoDoor.java" />
+        <option value="$PROJECT_DIR$/src/door/Door.java" />
       </list>
     </option>
   </component>
@@ -273,7 +237,7 @@
               <item name="SoftwareEngineering1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftwareEngineering1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="seat" type="462c0819:PsiDirectoryNode" />
+              <item name="door" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544264419742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544267351116" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -343,12 +307,20 @@
       <workItem from="1541926104532" duration="296000" />
       <workItem from="1541926552238" duration="3803000" />
       <workItem from="1544196144514" duration="1760000" />
-      <workItem from="1544261980656" duration="2760000" />
+      <workItem from="1544261980656" duration="5435000" />
     </task>
+    <task id="LOCAL-00001" summary="Erster Zwischestand">
+      <created>1544264797780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544264797780</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18301000" />
+    <option name="totallyTimeSpent" value="20976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1213" height="773" extended-state="6" />
@@ -388,6 +360,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Erster Zwischestand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Erster Zwischestand" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cabin/IWasteSystem.java">
@@ -488,37 +464,9 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/GearDoorType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/CrewDoor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/door/IGearDoor.java" />
     <entry file="file://$PROJECT_DIR$/src/door/IEmergencyExitDoor.java" />
     <entry file="file://$PROJECT_DIR$/src/door/ICrewDoor.java" />
-    <entry file="file://$PROJECT_DIR$/src/door/EmergencyExitDoor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/GearDoor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cabin/IAirConditioning.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -548,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/airplanePart/IAirplanePart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -647,24 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/Door.java">
+    <entry file="file://$PROJECT_DIR$/src/airplanePart/AirplanePart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/BulkCargoDoor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/door/IDoor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="425">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -691,22 +618,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/seat/Seat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="503">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/seat/ISeat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/airplanePart/AirplanePart.java">
+    <entry file="file://$PROJECT_DIR$/src/airplanePart/IAirplanePart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/IDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/CrewDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/BulkCargoDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/EmergencyExitDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/GearDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/GearDoorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/door/Door.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
