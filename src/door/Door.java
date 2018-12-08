@@ -8,16 +8,14 @@ public abstract class Door implements IDoor{
     protected boolean isLocked;
     protected boolean isClosed;
 
-    @Override
-    public void setDoor(String ID, String brand, String type)
+    protected void setDoor(String ID, String brand, String type)
     {
         door.setAll(ID, type, brand);
         isLocked = false;
         isClosed = true;
     }
 
-    @Override
-    public void setGearDoor(String ID, String brand)
+    protected void setGearDoor(String ID, String brand)
     {
         door.setIDandBrand(ID, brand);
         isLocked = false;
@@ -48,7 +46,7 @@ public abstract class Door implements IDoor{
 
     @Override
     //Closes the door if needed and locks it
-    public void lockDoor()
+    public void lock()
     {
         if(!isClosed)
             close();
@@ -57,7 +55,7 @@ public abstract class Door implements IDoor{
 
     @Override
     //Unlocks the door and remains in the current state of isClosed
-    public void unlockDoor()
+    public void unlock()
     {
         isLocked = false;
     }

@@ -2,32 +2,39 @@ package seat;
 
 import airplanePart.IAirplanePart;
 
-public abstract class Seat implements ISeat {
+public abstract class Seat implements ISeat{
 
     protected IAirplanePart seat;
     protected Passenger passenger;
     protected int level;
     protected INonSmokingSign nonSmokingSign;
     protected ISeatBeltSign seatBeltSign;
-    protected IReadingLight readingLight;
 
-    public Seat(String ID, String type, String brand, Passenger passenger)
+    protected void setSeat(String ID, String type, String brand)
     {
         seat.setAll(ID, type, brand);
-        this.passenger = passenger;
-        level = 0;
-        nonSmokingSign.off();;
-        seatBeltSign.off();
-        readingLight.off();
-    }
-
-    public Seat(String ID, String brand, String  type)
-    {
-        seat.setAll(ID, brand, type);
         level = 0;
         nonSmokingSign.off();
         seatBeltSign.off();
-        readingLight.off();
+    }
+
+    @Override
+    public void level(int lvl)
+    {
+        switch (lvl) {
+            default: level = 0;
+                break;
+            case 0: level = 0;
+                break;
+            case 1: level = 1;
+                break;
+        }
+    }
+
+    @Override
+    public void assign(Passenger passenger)
+    {
+        this.passenger = passenger;
     }
 
     @Override
@@ -35,5 +42,4 @@ public abstract class Seat implements ISeat {
     {
         return seat.version();
     }
-
 }

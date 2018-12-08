@@ -12,12 +12,6 @@ public class AirplanePart implements IAirplanePart {
     }
 
     @Override
-    public String getID()
-    {
-        return id;
-    }
-
-    @Override
     public void setAll(String ID, String type, String brand)
     {
         id = ID;

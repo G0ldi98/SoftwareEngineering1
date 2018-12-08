@@ -1,9 +1,10 @@
 package seat;
 
+import airplanePart.AirplanePart;
+import airplanePart.IAirplanePart;
+
 public class BusinessClassSeat implements IBusinessClassSeat {
-    private String manufacturer;
-    private String type;
-    private String id;
+    private IAirplanePart buisnessSeat;
     private Passenger passenger;
     private int level;
     private INonSmokingSign nonSmokingSign;
@@ -12,36 +13,35 @@ public class BusinessClassSeat implements IBusinessClassSeat {
 
     @Override
     public String version() {
-        return null;
+        return buisnessSeat.version();
     }
 
     @Override
     public void assign(Passenger passenger) {
-
+        this.passenger = passenger;
     }
 
     @Override
     public void readingLightOff() {
-
+        readingLight.off();
     }
 
     @Override
     public void readingLightOn() {
-
+        readingLight.on();
     }
 
     @Override
-    public void upRight() {
-
-    }
-
-    @Override
-    public void level1() {
-
-    }
-
-    @Override
-    public void level2() {
-
+    public void level(int lvl)
+    {
+        switch (lvl) {
+            default: level = 0;
+                break;
+            case 0: level = 0;
+                break;
+            case 1: level = 1;
+                break;
+            case 2: level = 2;
+                break;
     }
 }

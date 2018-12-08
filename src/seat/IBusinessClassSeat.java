@@ -1,17 +1,9 @@
 package seat;
 
 public interface IBusinessClassSeat {
-    public String version();
-
-    public void assign(Passenger passenger);
-
-    public void readingLightOff();
-
-    public void readingLightOn();
-
-    public void upRight();
-
-    public void level1();
-
-    public void level2();
+    String version();
+    void assign(Passenger passenger);
+    void readingLightOff();
+    void readingLightOn();
+    void level(int lvl);
 }
