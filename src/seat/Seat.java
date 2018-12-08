@@ -7,8 +7,8 @@ public abstract class Seat implements ISeat{
     protected IAirplanePart seat;
     protected Passenger passenger;
     protected int level;
-    protected INonSmokingSign nonSmokingSign;
-    protected ISeatBeltSign seatBeltSign;
+    protected NonSmokingSign nonSmokingSign;
+    protected SeatBeltSign seatBeltSign;
 
     protected void setSeat(String ID, String type, String brand)
     {

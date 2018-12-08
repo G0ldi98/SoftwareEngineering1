@@ -4,7 +4,7 @@ import airplanePart.IAirplanePart;
 
 public class CrewSeat implements ICrewSeat {
     private IAirplanePart crewSeat;
-    private IReadingLight readingLight;
+    private ReadingLight readingLight;
 
     @Override
     public String version() {

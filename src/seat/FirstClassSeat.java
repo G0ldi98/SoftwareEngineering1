@@ -1,31 +1,13 @@
 package seat;
 
-import airplanePart.IAirplanePart;
+public class FirstClassSeat extends Seat {
 
-public class FirstClassSeat implements IFirstClassSeat {
-    private IAirplanePart firstClassSeat;
-    private Passenger passenger;
-    private int level;
-    private INonSmokingSign nonSmokingSign;
-    private ISeatBeltSign seatBeltSign;
-    private IReadingLight readingLight;
+    private ReadingLight readingLight;
 
-    @Override
-    public String version() {
-        return firstClassSeat.version();
-    }
-
-    @Override
-    public void assign(Passenger passenger) {
-        this.passenger = passenger;
-    }
-
-    @Override
     public void readingLightOff() {
         readingLight.off();
     }
 
-    @Override
     public void readingLightOn() {
         readingLight.on();
     }
