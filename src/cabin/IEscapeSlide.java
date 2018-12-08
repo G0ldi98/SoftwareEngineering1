@@ -1,9 +1,9 @@
 package cabin;
 
 public interface IEscapeSlide {
-    public String version();
+    String version();
 
-    public void activate(); // war vorher boolean
+    void activate(); // war vorher boolean
 
-    public void test();
+    void test();
 }

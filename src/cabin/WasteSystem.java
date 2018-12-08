@@ -1,21 +1,28 @@
 package cabin;
 
+import airplanePart.AirplanePart;
+
 public class WasteSystem implements IWasteSystem {
-    private String manufacturer;
-    private String type;
-    private String id;
+    private AirplanePart wasteSystem;
     private String[] waste;
     private boolean isOn;
     private boolean isCleaned;
 
+    public WasteSystem(String ID, String brand, String type)
+    {
+        wasteSystem = new AirplanePart(ID, brand, type);
+        isOn = false;
+        isCleaned = true;
+    }
+
     @Override
     public String version() {
-        return null;
+        return wasteSystem.version();
     }
 
     @Override
     public void on() {
-
+        isOn = true;
     }
 
     @Override
@@ -25,11 +32,11 @@ public class WasteSystem implements IWasteSystem {
 
     @Override
     public void off() {
-
+        isOn = false;
     }
 
     @Override
     public void clean() {
-
+        isCleaned = true;
     }
 }

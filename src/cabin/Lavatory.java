@@ -1,29 +1,36 @@
 package cabin;
 
+import airplanePart.AirplanePart;
+
 public class Lavatory implements ILavatory {
-    private String manufacturer;
-    private String type;
-    private String id;
+    private AirplanePart lavatory;
     private boolean isLocked;
     private boolean isCleaned;
 
+    public Lavatory(String ID, String brand, String type)
+    {
+        lavatory = new AirplanePart(ID, brand, type);
+        isLocked = false;
+        isCleaned = true;
+    }
+
     @Override
     public String version() {
-        return null;
+        return lavatory.version();
     }
 
     @Override
-    public void lock() {
-
+    public void lockDoor() {
+        isLocked = true;
     }
 
     @Override
-    public void unlock() {
-
+    public void unlockDoor() {
+        isLocked = false;
     }
 
     @Override
     public void clean() {
-
+        isCleaned = true;
     }
 }

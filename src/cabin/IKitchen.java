@@ -1,15 +1,15 @@
 package cabin;
 
 public interface IKitchen {
-    public String version();
+    String version();
 
-    public void lock(); // war vorher boolean
+    void lockKitchen(); // war vorher boolean
 
-    public void unlock(); // war vorher boolean
+    void unlockKitchen(); // war vorher boolean
 
-    public double getTotalWeightTrolleys();
+    double getTotalWeightTrolleys();
 
-    public void addTrolley(Trolley trolley);
+    void addTrolley(Trolley trolley);
 
-    public void emptyTrolley(Trolley trolley);
+    void emptyTrolley(Trolley trolley);
 }

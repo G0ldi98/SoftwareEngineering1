@@ -2,15 +2,15 @@ package cabin;
 
 public interface IAirConditioning {
 
-    public String version();
+    String version();
 
-    public void on(); // war vorher boolean
+    void on(); // war vorher boolean
 
-    public String clean(String airFlow);
+    String clean(String airFlow);
 
-    public String heat(String airFlow, int temperature);
+    String heat(String airFlow, int temperature);
 
-    public String cool(String airFlow, int temperature);
+    String cool(String airFlow, int temperature);
 
-    public void off(); // war vorher boolean
+    void off(); // war vorher boolean
 }

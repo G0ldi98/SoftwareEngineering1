@@ -1,23 +1,30 @@
 package cabin;
 
+import airplanePart.AirplanePart;
+
 public class EscapeSlide implements IEscapeSlide {
-    private String manufacturer;
-    private String type;
-    private String id;
+    private AirplanePart slide;
     private boolean isActivated;
+
+    public EscapeSlide(String ID, String brand, String type)
+    {
+        slide = new AirplanePart(ID, brand, type);
+        isActivated = false;
+    }
 
     @Override
     public String version() {
-        return null;
+        return slide.version();
     }
 
     @Override
     public void activate() {
-
+        isActivated = true;
     }
 
     @Override
     public void test() {
-
+        isActivated = true;
+        isActivated = false;
     }
 }

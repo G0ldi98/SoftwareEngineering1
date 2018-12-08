@@ -1,20 +1,27 @@
 package cabin;
 
+import airplanePart.AirplanePart;
+
 public class AirConditioning implements IAirConditioning {
-    private String manufacturer;
-    private String type;
-    private String id;
+    private AirplanePart airConditioning;
     private int temperature;
     private boolean isOn;
 
+    public AirConditioning(String ID, String brand, String type)
+    {
+        temperature = 21;
+        isOn = false;
+        airConditioning = new AirplanePart(ID, brand, type);
+    }
     @Override
     public String version() {
-        return null;
+        return airConditioning.version();
     }
 
     @Override
-    public void on() {
-
+    public void on()
+    {
+        isOn = true;
     }
 
     @Override
@@ -34,6 +41,6 @@ public class AirConditioning implements IAirConditioning {
 
     @Override
     public void off() {
-
+        isOn = false;
     }
 }

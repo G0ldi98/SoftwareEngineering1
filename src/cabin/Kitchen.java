@@ -1,28 +1,36 @@
 package cabin;
 
+import airplanePart.AirplanePart;
 import java.util.ArrayList;
 
 public class Kitchen implements IKitchen {
-    private String manufacturer;
+    private AirplanePart kitchen;
     private KitchenType kitchenType;
-    private String id;
     private ArrayList<Trolley> trolleyList;
     private boolean isLocked;
     private boolean isFilled;
 
+    public Kitchen(String ID, String brand, KitchenType type)
+    {
+        kitchen = new AirplanePart(ID, brand);
+        kitchenType = type;
+        trolleyList = new ArrayList<>();
+        isLocked = false;
+        isFilled = true;
+    }
     @Override
     public String version() {
-        return null;
+        return "<" + kitchen.getID() + "> - <" + kitchenType + ">";
     }
 
     @Override
-    public void lock() {
-
+    public void lockKitchen() {
+        isLocked = true;
     }
 
     @Override
-    public void unlock() {
-
+    public void unlockKitchen() {
+        isLocked = false;
     }
 
     @Override
@@ -32,7 +40,7 @@ public class Kitchen implements IKitchen {
 
     @Override
     public void addTrolley(Trolley trolley) {
-
+        trolleyList.add(trolley);
     }
 
     @Override
